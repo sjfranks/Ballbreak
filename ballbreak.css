@@ -1,0 +1,47 @@
+/* Regular Web */
+@media screen {
+	#detector { 
+        opacity: 0;
+    }
+    #gameboard { 
+	    opacity: 1;
+	    
+	    position:fixed; 
+	    top: 0; 
+	    left:0;
+	    
+	    background:beige; 
+	    border:2px solid #000000; 
+    }
+}
+
+
+/* Portrait iPhone 4 */
+@media screen and (max-width: 320px) {
+	#detector { 
+	    text-align:center;
+        opacity: 1;
+        position:relative;
+        top: 150px;
+    }
+    #gameboard { 
+	    opacity: 0;
+    }
+}
+/* Landscape iPhone 4 */
+@media screen and (min-width: 321px) and (max-width: 480px) {
+	#detector { 
+        opacity: 0;
+    }
+    #gameboard { 
+	    opacity: 1;
+	    
+	    position:fixed; 
+	    top: 0; 
+	    left:0;
+	    
+	    background:beige; 
+	    border:2px solid #000000; 
+    
+    }
+}
